@@ -61,3 +61,73 @@ a {
   text-decoration: none;
 }
 */
+.site{
+  flex-direction: row;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+}
+.site__main{
+  width: 70%;
+  height: 100%;
+  background-color: rgba(255,128,0,0.3);
+  flex-direction: row;
+}
+.site__left-sidebar{
+  position: fixed;
+  flex-basis: auto;
+  flex-grow: 0;
+  width: 20%;
+}
+
+.site__left-sidebar h2{
+  font-weight: 20px;
+  font-color: rgba(0,0,128,0.6);
+}
+.site__content{
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-left: 20%;
+}
+.products{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product {
+  width: 50%;
+  height: 250px;
+  background-color: rgba(200,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+.site__right-sidebar{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(96,192,0,0.2);
+}
+.cart {
+  flex: 1 0;  
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  position: static;
+}
+.cart__title{
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+.cart__content {
+  margin-top: 50px;
+}
+.cart-item{
+  height:50px;
+  margin-bottom: 20px;
+  background: rgba(0,255,0,0.3);
+}
+.checkout {
+  height: 300px;
+  background: rgba(0,0,255,0.3);
+}
