@@ -517,7 +517,7 @@ a {
 .site__main{
   width: 70%;
   height: 100%;
-  background-color: rgba(255,128,0,0.3);
+  background-color: #F7F8FA;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -533,12 +533,14 @@ a {
   -webkit-flex-grow: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
-  width: 20%;
+  width: 160px;
 }
 
 .site__left-sidebar h2{
   font-weight: 20px;
-  font-color: rgba(0,0,128,0.6);
+  font-color: #515151 100%;
+  font-size: 48px;
+  font-face: AvenirNext-DemiBold;
 }
 .site__content{
   -webkit-flex-basis: 0;
@@ -548,7 +550,7 @@ a {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin-left: 20%;
+  margin-left: 160px;
 }
 .products{
   -webkit-box-orient: horizontal;
