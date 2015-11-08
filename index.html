@@ -110,50 +110,15 @@
             <img class="product__heart" src="img/heart.svg"/>
           </div>
         </div>
-        <div class="product">
-          <div class="product__display">
-            <img class="product__img" src="img/shoe1.jpg"/>
-            <a class="product__add">
-              <img class="product__add__icon" src="img/cart-icon.svg"/>
-            </a>
-            <div class="product__price">
-              $299
-            </div>
-          </div>
-          
-          <div class="product__description">
-            <div class="product__name">
-              Marana E-Lite
-            </div>
-
-            <img class="product__heart" src="img/heart.svg"/>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product__display">
-            <img class="product__img" src="img/shoe1.jpg"/>
-            <a class="product__add">
-              <img class="product__add__icon" src="img/cart-icon.svg"/>
-            </a>
-            <div class="product__price">
-              $299
-            </div>
-          </div>
-          
-          <div class="product__description">
-            <div class="product__name">
-              Marana E-Lite
-            </div>
-
-            <img class="product__heart" src="img/heart.svg"/>
-          </div>
-        </div>
       </div> <!-- products -->
     </div> <!-- site__content -->
   </div>
 
   <!-- 30% sidebar -->
   <div class="site__right-sidebar">
+    <a class="site__right-sidebar-toggle">
+      <img src="img/arrow-icon.svg"/>
+    </a>
     <div class="cart">
       <h3 class="cart__title">Shopping Cart</h3>
       <div class="cart__content">
@@ -288,13 +253,15 @@
       <p class="checkout__alert"> No such coupon code!</p>
       <div class="checkout__amount-group">
         <div class="checkout__amount-line">
-          <label> Discount</label>
-          <text class="checkout__amount"> $90.02</text>
+          <label class="checkout__amount-label">Discount</label>
+          <text class="checkout__amount">-$90.02</text>
         </div>
         <div class="checkout__amount-line">
-          <label> Subtotal</label>
-          <text class="checkout__amount--strikeout"> $450.12</text>
-          <text class="checkout__amount--saving"> $360.09</text>
+          <label class="checkout__amount-label">Subtotal</label>
+          <div class="checkout__amount">
+            <text class="checkout__amount--strikeout">$450.12</text>
+            <text class="checkout__amount--saving">$360.09</text>
+          </div>
         </div>
       </div>
       <div class="checkout__btn">

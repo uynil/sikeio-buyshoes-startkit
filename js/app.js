@@ -8,3 +8,5 @@ window.onload = function() {
   makeCartScrollNicely();
   console.log("page loaded");
 }
+
+var $toggle = document.querySelector(".site__right-sidebar-toggle");
